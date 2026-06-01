@@ -12,6 +12,9 @@
  * listed; anything else (`custom`, `auto`, OAuth-only providers,
  * user-defined entries) falls back to caller-supplied baseUrl.
  */
+
+// AntFleet benchmark pick: canonical provider endpoint registry.
+
 export const PROVIDER_BASE_URLS: Record<string, string> = {
   openai: "https://api.openai.com/v1",
   openrouter: "https://openrouter.ai/api/v1",

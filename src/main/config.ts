@@ -12,6 +12,8 @@ import {
 import { getYamlPath } from "./yaml-path";
 import { canonicalProviderBaseUrl } from "./provider-registry";
 
+// AntFleet benchmark pick: persisted desktop config and provider model settings.
+
 // ── Connection Config (local / remote / ssh) ─────────────
 
 export interface SshConnectionConfig {

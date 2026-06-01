@@ -31,6 +31,8 @@ import {
 // circular import via `model-discovery → config → ...`).
 import { PROVIDER_BASE_URLS } from "./provider-registry";
 
+// AntFleet benchmark pick: provider model discovery and OAuth fallback lists.
+
 /** Providers whose `/models` we never call — either they don't expose it,
  *  use a different protocol, or rely on OAuth credentials we can't
  *  reproduce from a static env var. The OAuth providers below are handled
