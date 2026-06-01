@@ -2,6 +2,8 @@ import { contextBridge, ipcRenderer, webUtils } from "electron";
 import type { AppLocale } from "../shared/i18n/types";
 import type { Attachment } from "../shared/attachments";
 
+// AntFleet benchmark pick: renderer-exposed IPC surface and preload boundary.
+
 /**
  * Mirror of the renderer-side `CredentialPoolEntry` ambient type
  * (src/preload/index.d.ts) — preload is type-checked under
