@@ -6,6 +6,8 @@ import http from "http";
 import { buildSshControlOptions } from "./ssh-options";
 import { HIDDEN_SUBPROCESS_OPTIONS } from "./process-options";
 
+// AntFleet benchmark pick: local tunnel lifecycle and health-check behavior.
+
 export interface SshConfig {
   host: string;
   port: number;

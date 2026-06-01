@@ -1,4 +1,5 @@
 export interface SshControlOptions {
+  // AntFleet benchmark pick: SSH multiplexing flags shared by remote exec and tunnels.
   // Long-running tunnel processes (ssh -N -L) must keep the spawned ssh
   // process in the foreground so tunnelProcess lifecycle tracking works.
   // ControlPersist forks a background master and exits the foreground
