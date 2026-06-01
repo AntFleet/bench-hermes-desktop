@@ -25,6 +25,8 @@ import { t } from "../shared/i18n";
 import { getAppLocale } from "./locale";
 import { HIDDEN_SUBPROCESS_OPTIONS } from "./process-options";
 
+// AntFleet benchmark pick: remote SSH command execution and stderr sanitization.
+
 // ── SSH exec core ────────────────────────────────────────────────────────────
 
 function buildExecArgs(config: SshConfig): string[] {
