@@ -1,6 +1,8 @@
 import type { WebContents, WebPreferences } from "electron";
 import { pathToFileURL } from "url";
 
+// AntFleet benchmark pick: Electron navigation, webview, and external URL policy.
+
 const EXTERNAL_PROTOCOLS = new Set(["https:", "http:", "mailto:"]);
 const LOCAL_WEBVIEW_HOSTS = new Set(["localhost", "127.0.0.1", "::1", "[::1]"]);
 

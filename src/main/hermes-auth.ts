@@ -10,6 +10,8 @@ import {
 import { HIDDEN_SUBPROCESS_OPTIONS } from "./process-options";
 import { stripAnsi } from "./utils";
 
+// AntFleet benchmark pick: OAuth subprocess supervision and device-code parsing.
+
 /**
  * Provider identifiers that authenticate via an interactive OAuth flow
  * (`hermes auth add <provider> --type oauth`) rather than a static API
